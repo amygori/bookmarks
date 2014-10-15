@@ -11,7 +11,16 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="modal">
+  <label for="modal-1">
+    <div class="btn js-btn">Create a new bookmark</div>
+  </label>
+  <input class="modal-state" id="modal-1" type="checkbox" />
+  <div class="modal-window">
+    <div class="modal-inner">
+      <label class="modal-close" for="modal-1"></label>
+      <h1>Create a new bookmark</h1>
+      <div class="field">
     <%= f.label :title %><br>
     <%= f.text_field :title %>
   </div>
@@ -22,4 +31,11 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+    </div>
+  </div>
+</div>
+
+  
 <% end %>
+
+

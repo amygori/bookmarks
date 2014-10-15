@@ -39,6 +39,8 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'devise', '~> 3.0.0.rc'
+gem 'bourbon'
+gem 'neat'
 
 group :development, :test do
   gem 'better_errors'
